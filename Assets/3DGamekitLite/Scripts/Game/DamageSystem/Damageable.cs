@@ -108,6 +108,11 @@ namespace Gamekit3D
                 var receiver = onDamageMessageReceivers[i] as IMessageReceiver;
                 receiver.OnReceiveMessage(messageType, this, data);
             }
+            ObjectHealthbar healthbar = GetComponentInChildren<ObjectHealthbar>();
+            if(healthbar != null)
+            {
+                healthbar.ChangeHitPointUI();
+            }
         }
 
         void LateUpdate()
