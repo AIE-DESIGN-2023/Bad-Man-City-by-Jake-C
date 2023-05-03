@@ -14,8 +14,8 @@ public class ActionTrigger : MonoBehaviour
     public bool onceOnly;
     public UnityEvent action;
 
-    private Text promptTextBox;
-    private bool ranOnce, inTrigger;
+    public Text promptTextBox;
+    public bool ranOnce, inTrigger;
     // Start is called before the first frame update
     void Start()
     {
