@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FlythroughCam
   - Car
+  - SkyboxCamera
   layers:
   - Default
   - TransparentFX
